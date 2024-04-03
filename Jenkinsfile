@@ -19,6 +19,7 @@ pipeline {
         sh 'git bisect good'
       }
     }
+
   }
   tools {
     maven 'DHT_MVN'
